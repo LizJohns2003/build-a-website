@@ -10,15 +10,16 @@
   <!-- Include the tag for introductory content -->
 
     <!-- Display stuff you should know logo nested in an anchor tag to link to index.html -->
-  <a href="index.html"><img src= "images/sysk-logo.webp" alt="Sysk Podcast Logo."></a>
+ <banner>
+    <a href="index.html"><img src= "images/sysk-logo.webp" alt="Sysk Podcast Logo."></a>
     <!-- Write the markup for a navigation and link items to appropriate pages -->
    <nav>
     <ul>
-    <li><a href="about.html">About</a></li>
-    <li><a href= "episodes/episodes.html">Episodes</a></li>
+    <li><a href="about.html" aria-label="click to page about the podcast to learn more.">About</a></li>
+    <li><a href= "episodes/episodes.html" aria-label="click to open page about episodes to learn more.">Episodes</a></li>
   </ul>
   </nav>
-
+</banner>
   <!-- Add an element that represents the main content of the page --> 
   <main>
     <!-- Main heading for the page -->
@@ -42,7 +43,7 @@
       <li>Josh and Chuck receive over 350 pieces of fan mail a week.</li>
     </ul>
       <!-- Link to about.html -->
-      <a href= "about.html">Read more about the show and hosts</a>
+      <a href= "about.html" aria-label="Read more about the hosts and shows.">Read more about the show and hosts</a>
 
 
     <!-- Include a tag that groups the 'Featured Episodes' content -->  
@@ -60,7 +61,7 @@
         <p>We don’t think about the words and phrases we use all the time - until Josh and Chuck look into them and tell everyone what they found. That’s the gist of this episode!</p>
 
         <!-- Link to existing html page within episodes directory; relevant to topic -->
-        <a href= "episodes/everyday-phrases.html">Learn more</a>
+        <a href= "episodes/everyday-phrases.html" aria-label="Read about the episode everyday phrases.">Learn more</a>
 
       
 
@@ -74,7 +75,7 @@
         <p>There have been a lot of fake towns built throughout history for a lot of different reasons, like this idyllic suburb Boeing built in the 40s to hide production of their B-17 Bombers! Learn all about these bogus burbs.</p>
         
         <!-- Link to existing html page within episodes directory; relevant to topic -->
-        <a href= "episodes/fake-towns.html">Learn more</a>
+        <a href= "episodes/fake-towns.html" aria-label="Read about the Fake Towns episode.">Learn more</a>
       
 
 
@@ -88,14 +89,16 @@
         <p>Seeing your near twin is probably pretty weird. But could there be a genetic commonality as well? You bet there could!</p>
 
         <!-- Link to existing html page within episodes directory; relevant to topic -->
-        <a href="episodes/doppelgangers.html">Learn more</a>
+        <a href="episodes/doppelgangers.html" aria-label="Read about the doppelgangers episode here.">Learn more</a>
       </main>
 
 
   <!-- Include the tag for footer content -->
+<contentinfo>
   <footer>
   <small>&copy; SYSK 2023</small>
 </footer>
+</contentinfo>
   
 </body>
 </html>

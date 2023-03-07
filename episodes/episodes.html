@@ -10,7 +10,7 @@
   <!-- Include the tag for introductory content -->
 
     <!-- Display sysk logo nested in an anchor tag to link to index.html -->
-<banner>
+  <div id="nav" role="navigation">
     <a href="../index.html"><img src= "../images/sysk-logo.webp" alt="Sysk Podcast Logo."></a>
     <!-- Write the markup for a navigation and link items to appropriate pages -->
    <nav>
@@ -19,7 +19,7 @@
     <li><a href= "episodes.html" aria-label="click to open page about episodes to learn more.">Episodes</a></li>
   </ul>
   </nav>
-</banner>
+</div>
     <!-- Write the markup for a navigation and link items to appropriate pages -->
  
 
@@ -28,9 +28,12 @@
   <!-- Add an element that represents the main content of the page --> 
 
     <!-- Main heading for the page -->
-    <main>
+  <div id="header" role="banner">
     <h1>Featured Episodes</h1>
+  </div>
 
+<main>
+  <div id="main" role="main">
     <p>There are so many episodes of Stuff You Should Know to listen to but here are three of our favourites; in this order.</p>
 
     <!-- Display the following as a list and link to appropriate existing html page -->
@@ -39,14 +42,17 @@
     <li><a href= "fake-towns.html" aria-label=" Click to read more about the Fake Towns episode.">The History of Fake Towns</a></li>
     <li><a href= "doppelgangers.html" aria-label="Click to read more about the Doppelgangers episode.">Doppelgängers: Hey you, you're me!</a></li>
   </ol>
-
+</div>
 </main>
+
   <!-- Include the tag for footer content -->
+ <div id="contentinfo" role="footer">
   <contentinfo>
   <footer>
   <small>&copy; SYSK 2023</small>
 </footer>
 </contentinfo>
+</div>
 
 </body>
 </html>

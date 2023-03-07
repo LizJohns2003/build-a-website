@@ -10,7 +10,7 @@
   <!-- Include the tag for introductory content -->
 
     <!-- Display sysk logo nested in an anchor tag to link to index.html -->
-<banner>
+<div id="nav" role="navigation">
     <a href="/index.html"><img src= "/images/sysk-logo.webp" alt="Sysk Podcast Logo."></a>
     <nav>
     <ul>
@@ -18,7 +18,7 @@
     <li><a href= "/episodes/episodes.html">Episodes</a></li>
   </ul>
   </nav>
-</banner>
+</div>
     <!-- Write the markup for a navigation and link items to appropriate pages -->
     
 
@@ -32,8 +32,11 @@
       <!-- Display image relevant to topic -->
       <img src="/images/fake-towns.jpeg" alt="Fake towns episode cover.">
       <!-- Main heading for the page -->
+    <div id="header" role="banner">
       <h1>The History of Fake Towns</h1>
-      
+    </div> 
+    
+    <div id="main" role="main">
       <p>October 18, 2022
       51 min</p>
 
@@ -71,15 +74,17 @@
 
         <!-- Link to existing html page within episodes directory; relevant to topic -->
        <a href="/episodes/doppelgangers.html" aria-label="Click to learn more about the Doppelgangers episode.">Learn more</a>
-     
+      </div> 
 </main>
         
   <!-- Include the tag for footer content -->
+<div id="footer" role="contentinfo">
 <contentinfo>
   <footer>
  <small> &copy; SYSK 2023 </small>
 </footer>
 </contentinfo>
-    
+</div>
+   
 </body>
 </html>

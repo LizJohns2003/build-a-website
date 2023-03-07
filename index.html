@@ -10,7 +10,7 @@
   <!-- Include the tag for introductory content -->
 
     <!-- Display stuff you should know logo nested in an anchor tag to link to index.html -->
- <banner>
+ <div id="nav" role="navigation">
     <a href="index.html"><img src= "images/sysk-logo.webp" alt="Sysk Podcast Logo."></a>
     <!-- Write the markup for a navigation and link items to appropriate pages -->
    <nav>
@@ -19,12 +19,15 @@
     <li><a href= "episodes/episodes.html" aria-label="click to open page about episodes to learn more.">Episodes</a></li>
   </ul>
   </nav>
-</banner>
+</div>
   <!-- Add an element that represents the main content of the page --> 
   <main>
+    
     <!-- Main heading for the page -->
+    <div id="header" role="banner">
     <h1>Stuff You Should Know Podcast</h1>
-
+    </div>
+    <div id="main" role="main">
     <!-- Include a tag that groups the 'About' and 'Facts' content -->
       
       <!-- Section heading -->
@@ -95,14 +98,15 @@
       </section>
       
       </main>
-
+    </div>
 
   <!-- Include the tag for footer content -->
-<contentinfo>
+<div id="footer" role="contentinfo">
+</contentinfo>
   <footer>
   <small>&copy; SYSK 2023</small>
 </footer>
 </contentinfo>
-  
+</div> 
 </body>
 </html>

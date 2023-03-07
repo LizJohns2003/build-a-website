@@ -10,7 +10,7 @@
   <!-- Include the tag for introductory content -->
 
     <!-- Display sysk logo nested in an anchor tag to link to index.html -->
-  <banner>
+  <div id="nav" role="navigation">
     <a href="/index.html"><img src= "../images/sysk-logo.webp" alt="Sysk Podcast Logo."></a>
     <nav>
     <ul>
@@ -18,22 +18,28 @@
     <li><a href= "/episodes/episodes.html" aria-label="click to open page about episodes to learn more.">Episodes</a></li>
   </ul>
   </nav>
-</banner>
+</div>
     <!-- Write the markup for a navigation and link items to appropriate pages -->
     
 
 
 
   <!-- Add an element that represents the main content of the page --> 
-<main>
+
 
     <!-- Include a tag that groups the information about this particular podcast -->
 
       <!-- Display image relevant to topic -->
     <img src="/images/everyday-phrases.jpeg" alt="Everyday Phrases Podcast episode cover.">
       <!-- Main heading for the page -->
+
+    <div id="header" role="banner">
       <h1>Interesting Origins of Everday Phrases</h1>
-      
+    </div>
+
+
+    <div id="main" role="main">
+    <main>
       <p>December 15, 2022
       49 min</p>
 
@@ -73,14 +79,17 @@
         <!-- Link to existing html page within episodes directory; relevant to topic -->
         <a href="/episodes/doppelgangers.html" aria-label="Click to read more about the doppelgangers episode.">Learn more</a>
       </main>
+    </div>
 
         
   <!-- Include the tag for footer content -->
+<div id="footer" role="contentinfo">
 <contentinfo>
   <footer>
   <small>&copy; SYSK 2023</small>
   </footer>
 </contentinfo>
+</div>
 
 </body>
 </html>
